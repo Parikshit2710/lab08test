@@ -1,0 +1,52 @@
+/* With help from http://getbootstrap.com/examples/blog/ */
+
+body {
+  padding-bottom: 200px;
+}
+
+@media (min-width: 990px) {
+  .container {
+    width: 720px;
+  }
+}
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.blog-post {
+  margin-bottom: 60px;
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.blog-load-more {
+  width: 100%;
+  margin-bottom: 20px;
+}
